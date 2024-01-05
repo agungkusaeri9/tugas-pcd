@@ -141,14 +141,14 @@ def submit():
 
 # Membuat jendela utama
 root = tk.Tk()
-root.title("Popup Pemilihan File MP4")
+root.title("Masukan Video MP 4")
 
 # Membuat label
 label_instruction = tk.Label(root, text="Pilih file MP4:")
 label_instruction.pack(pady=10)
 
 # Membuat entry untuk menampilkan path file
-entry_path = tk.Entry(root, width=40)
+entry_path = tk.Entry(root, width=80)
 entry_path.pack(pady=10)
 
 # Membuat tombol untuk membuka dialog pemilihan file
